@@ -1,0 +1,345 @@
+/*!* 전체 컨테이너 설정 *!*/
+/*.wrapper {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*    padding: 40px;*/
+/*    margin: 0 auto;*/
+/*    max-width: 800px; !* 원하는 최대 폭을 설정 *!*/
+/*    text-align: center; !* 텍스트 정렬 *!*/
+/*}*/
+
+/*.box {*/
+/*    margin-bottom: 2rem;*/
+/*    background: #ffffff;*/
+/*}*/
+
+/*.image.fit img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+/*.profile {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.profile-image {*/
+/*    border-radius: 50%;*/
+/*    margin-bottom: 10px;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*.profile a {*/
+/*    display: inline-block;*/
+/*    margin-top: 10px;*/
+/*    color: #5bc0de;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.profile a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*!* 프로필 css *!*/
+/*.left-sidebar {*/
+/*    flex: 1;*/
+/*    max-width: 500px;*/
+/*    background-color: #f5f5f5;*/
+/*    padding: 15px;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.inner {*/
+/*    flex: 1;*/
+/*    background-color: #f9f9f9;*/
+/*    padding: 50px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+/*}*/
+
+/*.main-layout {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    padding: 20px;*/
+/*    gap: 20px;*/
+/*    max-width: 1200px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.right-sidebar {*/
+/*    flex: 10;*/
+/*    max-width: 800px;*/
+/*    background-color: #f5f5f5;*/
+/*    padding: 0px;*/
+/*    border-radius: 15px;*/
+/*}*/
+
+/*!* 뉴스 카드 스타일 *!*/
+/*.news {*/
+/*    background-color: #fff;*/
+/*    padding: 15px;*/
+/*    margin-bottom: 10px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*    text-align: center; !* 글자를 가운데 정렬 *!*/
+/*}*/
+
+/*.news h3 {*/
+/*    font-size: 1.0em;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.news h4 {*/
+/*    margin-bottom: 30px;*/
+/*    font-size: 1.2em;*/
+/*}*/
+
+/*!* YouTube, Instagram, FunPhoto *!*/
+/*.youtube-video, .instagram-post, .fun-photo {*/
+/*    width: 100%; !* 부모 요소의 너비에 맞게 설정 *!*/
+/*    max-width: 800px; !* 최대 너비 설정 *!*/
+/*    margin: 0 auto; !* 가운데 정렬 *!*/
+/*}*/
+
+/*.news .youtube-video iframe {*/
+/*    width: 105%; !* iframe의 너비를 부모에 맞게 설정 *!*/
+/*    height: 350px; !* 고정 높이 설정 *!*/
+/*}*/
+
+/*!* 게시판 컨테이너 스타일 *!*/
+/*.board-container {*/
+/*    max-width: 800px; !* 게시판 전체 너비 *!*/
+/*    margin: 0 auto; !* 가운데 정렬 *!*/
+/*    padding: 20px; !* 여백 추가 *!*/
+/*    border: 1px solid #ddd; !* 테두리 *!*/
+/*    border-radius: 10px; !* 모서리 둥글게 *!*/
+/*    background-color: #f9f9f9; !* 배경색 *!*/
+/*    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); !* 그림자 *!*/
+/*}*/
+
+/*.post-item {*/
+/*    padding: 15px; !* 리스트 항목 여백 *!*/
+/*    font-size: 16px; !* 글자 크기 *!*/
+/*}*/
+
+/*textarea.form-control {*/
+/*    width: 100%; !* 텍스트 입력창 너비 *!*/
+/*    font-size: 16px; !* 텍스트 크기 *!*/
+/*}*/
+
+/*h3 {*/
+/*    font-size: 24px; !* 제목 크기 *!*/
+/*    margin-bottom: 20px; !* 제목과 콘텐츠 사이 간격 *!*/
+/*}*/
+
+.custom-hover-link {
+    margin-right: 10px;
+    color:white;
+    transition: color 0.3s;
+}
+
+.custom-hover-link:hover {
+    color:skyblue;
+}
+
+/*!* 전체 컨테이너 설정 *!*/
+/*.main-content-container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start; !* 상단 정렬 *!*/
+/*    margin-bottom: 30px;*/
+/*    position: relative; !* 위치를 상대적으로 조정 *!*/
+/*    top: -100px; !* 위로 이동 *!*/
+/*}*/
+
+/*!* MainMa를 포함하는 전체 컨테이너 *!*/
+/*.main-content-container {*/
+/*    width: 100vw;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*!* MainMa 위치 조정 *!*/
+/*.main-content {*/
+/*    flex: 1;*/
+/*    width: 100vw;*/
+/*    height: auto;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    z-index: 1;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*nav.navbar {*/
+/*    margin-bottom: 0; !* 헤더 하단 여백 제거 *!*/
+/*}*/
+
+
+/*!* Weather: 왼쪽 사이드로 고정 *!*/
+/*.weather-content {*/
+/*    flex: 0 1 300px; !* Weather의 최소 너비 300px 설정 *!*/
+/*    background-color: #f9f9f9; !* 배경 색상 추가 *!*/
+/*    border-radius: 8px; !* 모서리를 둥글게 *!*/
+/*    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); !* 그림자 효과 *!*/
+/*    overflow: hidden;*/
+/*    padding: 15px;*/
+/*}*/
+
+/*!* Weather 내부 텍스트 스타일 *!*/
+/*.weather-content p {*/
+/*    white-space: normal; !* 텍스트가 길어질 경우 줄바꿈 되도록 설정 *!*/
+/*    text-overflow: ellipsis;*/
+/*    overflow: hidden;*/
+/*    word-wrap: break-word;*/
+/*}*/
+
+/*!* 로그인, 회원가입, 마이페이지 화면에서의 전체화면 적용 *!*/
+/*.full-page {*/
+/*    width: 100%;*/
+/*    padding: 0;*/
+/*}*/
+
+/*!* 추가적인 스타일 *!*/
+/*.container {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    gap: 20px; !* 카드 사이의 간격 *!*/
+/*}*/
+
+/*!* 모바일 대응: 모바일에서는 세로로 배치되게 *!*/
+/*@media (max-width: 768px) {*/
+/*    .main-content-container {*/
+/*        flex-direction: column; !* 세로로 배치 *!*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .main-content {*/
+/*        max-width: 100%; !* 화면 크기에 맞게 최대 너비 조정 *!*/
+/*    }*/
+
+/*    .weather-content {*/
+/*        max-width: 100%; !* Weather가 화면에 맞게 크기 조정 *!*/
+/*    }*/
+
+/*    !* 프로필 이미지 크기 조정 *!*/
+/*    .profile-image {*/
+/*        width: 80px;*/
+/*        height: 80px;*/
+/*    }*/
+
+/*    .wrapper {*/
+/*        max-width: 100%; !* 화면 크기에 맞게 최대 너비 조정 *!*/
+/*    }*/
+
+/*    .board-container {*/
+/*        max-width: 100%; !* 게시판이 모바일에서 화면에 맞게 조정 *!*/
+/*    }*/
+/*}*/
+
+/*!* 전체 레이아웃 설정 *!*/
+/*.container {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    gap: 20px; !* 카드 간 간격 *!*/
+/*    width: 100%;*/
+/*    max-width: 1200px;*/
+/*    margin: 0 auto; !* 가운데 정렬 *!*/
+/*}*/
+
+/*!*02-17 *!*/
+
+/*.custom-h2 {*/
+/*    text-align: center;*/
+/*    font-size: 2.5rem;*/
+/*    font-weight: bold;*/
+/*    color: #456d78;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+/*.custom-card {*/
+/*    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;*/
+/*}*/
+
+/*.custom-card:hover {*/
+/*    transform: scale(1.005); !*1.05 배확대 *!*/
+/*    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+
+/*.card:hover {*/
+/*    transform: translateY(-10px); !* 마우스 호버시 카드가 살짝 올라가는 효과 *!*/
+/*}*/
+
+/*!* 이미지 스타일 *!*/
+/*.card img {*/
+/*    width: 100%;*/
+/*    height: 200px;*/
+/*    object-fit: cover;*/
+/*    border-top-left-radius: 8px;*/
+/*    border-top-right-radius: 8px;*/
+/*}*/
+
+.blog-detail-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blog-meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.blog-meta .author {
+    font-weight: bold;
+}
+
+.blog-meta .date {
+    margin-left: 10px;
+}
+
+.blog-meta .view-count {
+    margin-left: 10px;
+    color: #999;
+}
+
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.blog-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.blog-actions button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-card-img {
+    margin-top: 10px;
+}

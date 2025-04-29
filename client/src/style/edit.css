@@ -1,0 +1,24 @@
+
+@media (max-width: 768px) {
+    .custom-card1 {
+        width: 100px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-row {
+        flex-direction: row;
+    }
+    .custom-card1 {
+        width: 90px;
+        height: 110px;
+    }
+}
+
+.selected {
+    border: 3px solid #007bff !important;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}

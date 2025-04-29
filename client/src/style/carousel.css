@@ -1,0 +1,26 @@
+/* 전체를 꽉 차게 만들기 */
+.main-carousel-container {
+    width: 100vw; /* 전체 너비 */
+    max-width: 100%; /* 최대 너비 설정 */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* 캐러셀의 전체 너비 확장 */
+.full-width-carousel {
+    width: 100%;
+}
+
+/* 개별 이미지 스타일 */
+.carousel-img {
+    width: 100vw; /* 화면 너비 꽉 차게 */
+    height: 400px; /* 높이 고정 */
+    object-fit: cover;
+}
+
+/* 미디어 쿼리: 모바일 최적화 */
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 250px; /* 모바일에서는 높이 줄이기 */
+    }
+}

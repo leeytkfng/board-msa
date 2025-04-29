@@ -1,0 +1,58 @@
+.custom-h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #456d78;
+    margin-bottom: 30px;
+}
+
+.custom-card {
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+    min-height: 300px;
+}
+
+.custom-card:hover {
+    transform: scale(1.005); /*1.05 배확대 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* 이미지 스타일 */
+.custom-card-img {
+    width: 100%;
+    height: 128px;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+}
+.custom-card-img1 {
+    width: 100%;
+    height: 64px;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 8px 8px 0 0;
+}
+
+.custom-card1 {
+    transition: transform 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.custom-card1:hover {
+    transform: scale(1.05); /*1.05 배확대 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x:auto ;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
